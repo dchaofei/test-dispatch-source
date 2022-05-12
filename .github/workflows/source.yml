@@ -19,5 +19,5 @@ jobs:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           repository: dchaofei/test-dispatch-source
           event-type: updatedeps
-          client-payload: '{"tag":${{ github.ref_name }}}'
+          client-payload: '{"tag":"${{ github.ref_name }}"}'
 
